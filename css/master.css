@@ -1,0 +1,76 @@
+  header{
+    background: blue url('images/imagefond.svg') top center no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header h1 {
+
+  font-size: 100px;
+  color : blue;
+    text-align: center;
+    font-weight: bold;
+
+  }
+
+body {
+  background: rgba(255, 220, 0);
+}
+
+
+
+
+article{
+min-height: 60vh;
+margin: px;
+
+}
+
+footer{
+background: #000;
+min-height: 20vh;
+display: flex;
+align-items: center;
+}
+
+nav{
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  color: rgba(255, 220, 0);
+  padding: 2em;
+  font-size: 2em;
+}
+
+nav li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+
+.centered-image {
+  max-width: 320px;
+  display: block;
+  margin : 0 auto;
+}
